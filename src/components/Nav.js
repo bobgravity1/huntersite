@@ -11,8 +11,6 @@ const Nav = () => {
 const clicker=()=>{
   if(window.innerWidth<450){
   setActive(!active);
-  console.log(window.innerWidth)
-  console.log(active)
 }
 }
 
@@ -22,7 +20,6 @@ const toucher=()=>{
 
 const toucherOff=()=>{
   setTouched(false);
-  console.log(touched)
 }
 
   return (
@@ -31,8 +28,8 @@ const toucherOff=()=>{
 <div className='shadow-xl'>
     <div  className='nav c overflow-hidden w-full nav-main md:pt-8 pt-4  flex  justify-between md:justify-around items-center flex-row flex-shadow-2xl'>
         <h1 className=' mx-2   antialiased  text-lg md:text-3xl font-bold text-green-700 font-second-bold'>HUNTER SOLICITERS</h1>
-        <div className={`${active?'nav-items-active':'nav-items'} bg-white items-center justify-start md:items-center flex flex-col justify-center md:flex-row md:justify-around list-none w-1/3   flex-shadow-2xl`}>
-        <Link onClick={()=>setActive(false)} to='/about' className='text-green-800 hover:text-green-800 font-semibold duration-200 antialiased  p-2 cursor-pointer lg:my-0 my-6 text-sm lg:hover:text-white lg:hover:bg-red-900 font-main'>About</Link>
+        <div className={`${active?'nav-items-active':'nav-items'} bg-white items-center  md:items-center flex flex-col justify-center md:flex-row md:justify-around list-none w-1/3   flex-shadow-2xl`}>
+        <Link onClick={()=>setActive(false)} to='/about' className='lg:mt-0 mt-20 text-green-800 hover:text-green-800 font-semibold duration-200 antialiased  p-2 cursor-pointer lg:my-0 my-6 text-sm lg:hover:text-white lg:hover:bg-red-900 font-main'>About</Link>
         <li onClick={()=>setActive(false)} className='text-green-800 hover:text-green-800 font-semibold duration-200 antialiased  p-2 cursor-pointer lg:my-0 my-6 text-sm lg:hover:text-white lg:hover:bg-red-900 font-main'>Contact</li>
         <li onClick={()=>setActive(false)} className='text-green-800 hover:text-green-800 font-semibold duration-200 antialiased  p-2 cursor-pointer lg:my-0 my-6 text-sm lg:hover:text-white lg:hover:bg-red-900 font-main'>Stories</li>
         <li onClick={()=>setActive(false)} className='text-green-800 hover:text-green-800 font-semibold duration-200 antialiased  p-2 cursor-pointer lg:my-0 my-6 text-sm lg:hover:text-white lg:hover:bg-red-900 font-main'>News</li>
