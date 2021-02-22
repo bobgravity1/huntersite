@@ -101,9 +101,10 @@ font-family: 'Heebo:100', sans-serif;
     .nav-items-active{
       position:fixed;
       bottom:0vh;
-      transform:translateX(-100%);
+      transform:translateX(000%);
       transition: all .1s ease-in;
       right:0vw;
+      z-index:-90;
       height:100vh;
       width:50vw;
     }
