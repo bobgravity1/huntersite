@@ -11,6 +11,8 @@ const Nav = () => {
 const clicker=()=>{
   if(window.innerWidth<450){
   setActive(!active);
+  console.log(window.innerWidth)
+  console.log(active)
 }
 }
 
@@ -30,8 +32,8 @@ const toucherOff=()=>{
     <div  className='nav overflow-hidden w-full nav-main md:pt-8 pt-4  flex  justify-between md:justify-around items-center flex-row flex-shadow-2xl'>
         <h1 className=' mx-2   antialiased  text-lg md:text-3xl font-bold text-green-700 font-second-bold'>HUNTER SOLICITERS</h1>
         <div className={`${active?'nav-items-active':'nav-items'}  bg-white items-center justify-start md:items-center flex flex-col justify-center md:flex-row md:justify-around list-none w-1/3   flex-shadow-2xl`}>
-        <Link to='/about' className='text-green-800 font-semibold  nav-item duration-200 antialiased p-2 cursor-pointer lg:my-0 my-6 text-sm hover:text-black lg:hover:text-white lg:hover:bg-red-900 font-main'>About</Link>
-        <li className='text-green-800 hover:text-white font-semibold nav-item duration-200 antialiased  p-2 cursor-pointer lg:my-0 my-6 text-sm hover:text-black lg:hover:text-white lg:hover:bg-red-900 font-main'>Contact</li>
+        <Link to='/about' className=''>About</Link>
+        <li className=''>Contact</li>
         <li className='text-green-800 font-semibold nav-item duration-200 antialiased p-2 cursor-pointer lg:my-0 my-6 n text-sm hover:text-black lg:hover:text-white lg:hover:bg-red-900 font-main'>Stories</li>
         <li className='text-green-800 font-semibold  nav-item duration-200 antialiased p-2 cursor-pointer lg:my-0 my-6 text-sm hover:text-black lg:hover:text-white lg:hover:bg-red-900 font-main'>News</li>
         <div onMouseLeave={()=>toucherOff()} onMouseEnter={()=>setTouched(true)} className='flex   flex-row items-center'>
