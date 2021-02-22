@@ -214,9 +214,49 @@ font-family: 'Heebo:100', sans-serif;
 
    .banner-text{
      font-size: 2em;
-    bottom: 10vh;
+    bottom: 25vh;
      left:5vw;
      width:50vw;
      position:absolute;
    }
+
+      .banner{
+       z-index:100;
+       object-fit: cover;
+       filter: brightness(90%);
+      }
+
+      .banner{
+        z-index:100;
+        object-fit: cover;
+        filter: brightness(90%);
+      }
+      .icon-back{
+        height:40px;
+      }
+
+      .icon-home{
+        height:5em;
+      }
+      .menu-drop-active{
+
+        position:absolute;
+        right:10vw;
+        z-index:100;
+        padding:1em;
+        background-color: white;
+        opacity:.9
+      }
+
+       .arrow{
+        display:none;
+       }
+
+       .arrowTwo{
+       height:1.0em;
+       }
+       .bannerFondo{
+               height: 200px;
+               background-color: red;
+       }
 }
