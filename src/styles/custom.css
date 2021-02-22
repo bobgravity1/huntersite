@@ -89,6 +89,7 @@ font-family: 'Heebo:100', sans-serif;
     .nav-item{
   margin-top: 5vh;
   opacity:99%;
+  z-index:100;
     }
 
     .nav-main{
