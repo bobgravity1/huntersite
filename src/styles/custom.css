@@ -93,7 +93,7 @@ font-family: 'Heebo:100', sans-serif;
 
     .nav-main{
     background-color: white;
-    min-height:10vh;
+    min-height:8vh;
     position:fixed;
     top:0vh;
     z-index:100
