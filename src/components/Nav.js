@@ -30,7 +30,7 @@ const toucherOff=()=>{
         <div className={`${active?'nav-items-active':'nav-items'}  bg-white items-center justify-start md:items-center flex flex-col justify-center md:flex-row md:justify-around list-none w-1/3   flex-shadow-2xl`}>
         <Link to='/about'> <li className='text-green-800 font-semibold  nav-item duration-200 antialiased p-2 cursor-pointer lg:my-0 my-6 text-sm hover:text-white  lg:hover:bg-red-900 font-main'>About</li></Link>
         <li className='text-green-800 hover:text-white font-semibold nav-item duration-200 antialiased  p-2 cursor-pointer lg:my-0 my-6 text-sm hover:text-white lg:hover:bg-red-900 font-main'>Contact</li>
-        <li className='text-green-800 font-semibold nav-item duration-200 antialiased p-2 cursor-pointer lg:my-0 my-6 text-sm hover:text-white lg:hover:bg-red-900 font-main'>Stories</li>
+        <li className='text-green-800 font-semibold nav-item duration-200 antialiased p-2 cursor-pointer lg:my-0 my-6 n text-sm hover:text-white lg:hover:bg-red-900 font-main'>Stories</li>
         <li className='text-green-800 font-semibold  nav-item duration-200 antialiased p-2 cursor-pointer lg:my-0 my-6 text-sm hover:text-white lg:hover:bg-red-900 font-main'>News</li>
         <div onMouseLeave={()=>toucherOff()} onMouseEnter={()=>setTouched(true)} className='flex   flex-row items-center'>
         <li  className='text-green-800 lg:hover:bg-red-900 font-semibold nav-item duration-200 antialiased p-2 cursor-pointer lg:my-0 my-6 text-sm hover:text-white hover:bg-red-800 font-main'>Team</li>
