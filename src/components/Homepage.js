@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 // COMPONENTS
 import Banner from './Banner'
 import Footer from './Footer'
@@ -17,6 +17,9 @@ import imageFour from '../images/home-image-four.jpg'
 
 
 const Homepage = () => {
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+})
   return (
     <div className=' bg-container mt-10 md:mt-0 shadow-2xl'>
     <Banner />
