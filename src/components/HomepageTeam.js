@@ -49,7 +49,7 @@ const HomepageTeam = () => {
       <div class="font-semibold add text-green-800 text-xs italic dark">orick@hunter-solicitors.ie</div>
     </div>
   </div>
-  <div class="buttons flex absolute bottom-0 font-bold right-0 text-xs text-green-800 space-x-0 my-3.5 mr-3">
+  <div class="buttons mc flex absolute bottom-0 font-bold right-0 text-xs text-green-800 space-x-0 my-3.5 mr-3">
   <div class="add duration-200 rounded-l-none rounded-r-none border-green-700 p-1 px-4 cursor-pointer hover:border-red-900 hover:bg-red-900 hover:text-white">Contact</div>
   <div class="add duration-200 rounded-r-none rounded-l-none border-green-700 p-1 px-4 cursor-pointer hover:border-red-900 hover:bg-red-900 hover:text-white">Bio</div>
   </div>
