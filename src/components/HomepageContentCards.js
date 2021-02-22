@@ -3,8 +3,6 @@ import '../styles/custom.css'
 
 
 const HomePageContentCards = (props) => {
-
-console.log(props.hovered)
   return (
     <>
     <div className='  my-8 md:mb-12 mb-0 justify-center flex mx-0 lg:mx-0 flex flex-wrap'>
