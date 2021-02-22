@@ -11,7 +11,7 @@ const Footer = () => {
 
 
             <div class=" font-main p-3  w-1/2 sm:w-4/12 md:w-4/12">
-                <div class="font-bold text-sm  uppercase text-white text-font-bold mb-2">
+                <div class="font-bold z text-sm  uppercase text-white text-font-bold mb-2">
                     Hunter Solicitors
                 </div>
                 <hr className='py-0'/>
