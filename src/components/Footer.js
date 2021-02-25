@@ -86,7 +86,7 @@ General
 
 
         <div class=" p-3 w-3/6 lg:w-1/6">
-            <div class=" font-main text-sm  uppercase text-white font-bold mb-2">
+            <div class="mt-5 lg:mt-0 font-main text-sm  uppercase text-white font-bold mb-2">
                 Community
             </div>
             <hr className='py-0'/>
