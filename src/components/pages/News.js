@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useContext} from 'react'
 // COMPONENTS
 import Footer from '../content/Footer'
 import image from '../../images/home-image-four.jpg'
@@ -8,15 +8,21 @@ import {Link} from 'react-router-dom'
 //text
 import text from '../../text/pages.js'
 
+// Context
+import ThemeContext from '../../ThemeContext'
+
 const News = () => {
 
-    useEffect(()=>{
-      console.log('i am rendered')
-      window.scrollTo(0, 0);
-    })
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+    open.setOpen(false)
+},[])
+
+const open=useContext(ThemeContext)
+
   return (
     <>
-    <div className='bg-container'>
+    <div className={`${open.open===false?'bg-container':'bg-container dark'}`}>
     <Body image={image}>{text.news}</Body>
     <div className='w-full justify-between flex'>
         <Footer />

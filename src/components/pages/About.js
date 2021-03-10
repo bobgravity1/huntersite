@@ -1,23 +1,31 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useContext} from 'react'
 import image from '../../images/home-image-two.jpg'
 // COMPONENTS
 import Footer from '../content/Footer'
 import Body from '../content/Body'
 import {Link} from 'react-router-dom'
 
+
 //text
 import text from '../../text/pages.js'
+
+// Context
+import ThemeContext from '../../ThemeContext'
 
 
 
 
 const About = () => {
-    useEffect(()=>{
-      window.scrollTo(0, 0);
-    })
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+    open.setOpen(false)
+},[])
+
+const open=useContext(ThemeContext)
+
   return (
     <>
-    <div className='bg-container'>
+    <div className={`${open.open===false?'opacity-100':'dark'}`}>
     <Body image={image}>{text.about}</Body>
     <div className='w-full justify-between flex'>
         <Footer />

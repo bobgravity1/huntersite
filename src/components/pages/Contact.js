@@ -1,11 +1,22 @@
-import React from 'react'
+import React, {useContext, useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import Footer from '../content/Footer'
 import WrappedMap from '../Map.js'
 
+// Context
+import ThemeContext from '../../ThemeContext'
+
 const Contact = () => {
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+    open.setOpen(false)
+},[])
+
+const open=useContext(ThemeContext)
+
+
   return (
-    <div className='bg-green-800 bg-container'>
+    <div className={`${open.open===false?'bg-container':'bg-container dark'}`}>
     <p className='ml-4 lg:text-left text-center lg:ml-0 lg:py-4 pt-16 pb-4 title  text-white text-3xl'>
     Contact Us
     </p>
