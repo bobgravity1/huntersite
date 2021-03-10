@@ -124,7 +124,7 @@ const Footer = () => {
                 </Link>
                   <Link to='/'>
                 <div href="#" class="w-6 mx-1">
-                    <i class="uil uil-twitter-alt"></i>
+                    <i class="uil x uil-twitter-alt"></i>
                 </div>
                 </Link>
                   <Link to='/'>
