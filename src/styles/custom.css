@@ -2,8 +2,9 @@
   background-color: rgba(6, 78, 59, 90)
 }
 
-
-
+.dark{
+  filter: brightness(60%)
+}
 
 .nav{
 
@@ -148,6 +149,16 @@ font-family: 'Heebo:100', sans-serif;
   and (min-device-width: 768px)
   and (max-device-width: 1600px)
 {
+  .img{
+    position:relative;
+    bottom:5vh;
+  }
+
+  .title{
+    position: relative;
+    margin-left:15vw;
+    top:3vh;
+  }
   .icon-back{
     height:40px;
   }
@@ -207,6 +218,15 @@ font-family: 'Heebo:100', sans-serif;
   and (min-device-width: 1600px)
   and (max-device-width: 2400px)
  {
+   .img{
+     position:relative;
+     bottom:5vh;
+   }
+   .title{
+     position: relative;
+     margin-left:12vw;
+     top:2vh;
+   }
    .burger{
      display:none;
    }

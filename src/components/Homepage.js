@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, {useContext, useEffect} from 'react'
 // COMPONENTS
 import Banner from './Banner'
 import Footer from './Footer'
@@ -7,36 +7,40 @@ import HomepageContentCards from './HomepageContentCards'
 import HomepageContent from './HomepageContent'
 import HomepageTeam from './HomepageTeam'
 import WrappedMap from './Map'
-
+import ThemeContext from '../ThemeContext'
+import '../styles/custom.css'
 
 // ASSETS
 import imageTwo from '../images/home-image-two.jpg'
 import imageThree from '../images/home-image-three.jpg'
 import imageFour from '../images/home-image-four.jpg'
 
-
-
 const Homepage = () => {
   useEffect(()=>{
     window.scrollTo(0, 0);
-})
+    open.setOpen(false)
+},[])
+
+const open=useContext(ThemeContext)
+
   return (
-    <div className=' bg-container mt-10 md:mt-0 shadow-2xl'>
+    <div className={`${open.open===false?'opacity-100':'dark'}`}>
+<div className={`bg-container mt-10 md:mt-0 shadow-2xl`}>
     <Banner />
-    <div className='shadow-xl grid grid-cols-1 gap-0 lg:gap-0 lg:grid-cols-12'>
-    <div class=" col-span-7">
+<div className={` shadow-xl grid grid-cols-1 gap-0 lg:gap-0 lg:grid-cols-12`}>
+  <div class=" col-span-7">
     <HomepageContent />
         </div>
-    <div class="">
+  <div class="">
     <HomepageTeam />
-    </div>
+  </div>
     </div>
     <GreenBanner />
-    <div className='grid grid-cols-1 gap-2 lg:gap-3 sm:grid-cols-3'>
+  <div className='grid grid-cols-1 gap-2 lg:gap-3 sm:grid-cols-3'>
     <HomepageContentCards image={imageTwo}/>
     <HomepageContentCards image={imageThree} />
     <HomepageContentCards image={imageFour} />
-    </div>
+  </div>
 
 
   <div className='mt-8 lg:mt-0'>
@@ -46,11 +50,12 @@ const Homepage = () => {
     loadingElement={<div style={{ height: `100%` }} />}
     containerElement={<div style={{ height: `400px` }} />}
     mapElement={<div style={{ height: `100%` }} />}
-  />
+    />
   </div>
 
     <Footer />
 
+    </div>
     </div>
   )
 }

@@ -3,11 +3,11 @@ import React from 'react'
 const GreenBanner = () => {
   return (
     <div>
-<div class="-mt-0  md:mt-0 shadow-lg min-w-screen min-h-1/2 bg-green-800 flex md:flex-col md:flex-row flex-wrap items-center mt-8 py-6 px-4 lg:px-20 relative">
-<div class=" translate-x-2">
-            <i class="fa fa-swimmer" style={{fontSize:'48px'}}></i>
-                <div class="xl:space-y-4">
-                    <p class="lg:mt-0 -mt-6 pb-0 tracking-widest antialiased text-xs font-main text-white ">
+<div className="-mt-0  md:mt-0 shadow-lg min-w-screen min-h-1/2 bg-green-800 flex md:flex-col md:flex-row flex-wrap items-center mt-8 py-6 px-4 lg:px-20 relative">
+<div className=" translate-x-2">
+            <i className="fa fa-swimmer" style={{fontSize:'48px'}}></i>
+                <div className="xl:space-y-4">
+                    <p className="2xl:text-sm lg:mt-0 -mt-6 pb-0 tracking-widest antialiased text-xs font-main text-white ">
 When seeking legal advice it’s important to talk to a qualified solicitor who has the
 expertise to help you. The Law Society website lists solicitors who hold a
 current practising certificate and professional indemnity insurance in Ireland
@@ -18,7 +18,7 @@ solicitor by name or by location. As at 14 August 2018, there were 6687 solicito
 expertise to help you.
 </p>
 
-<p class="w-full pb-0 tracking-widest antialiased text-xs font-main text-white ">
+<p className="2xl:text-sm w-full pb-0 tracking-widest antialiased text-xs font-main text-white ">
 When seeking legal advice it’s important to talk to a qualified solicitor who has the
 expertise to help you. The Law Society website lists solicitors who hold a
 current practising certificate and professional indemnity insurance in Ireland

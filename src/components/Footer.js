@@ -5,17 +5,14 @@ const Footer = () => {
   return (
     <div>
 
-<footer class=" md:mt-4 mt-12  border-white  bg-green-800  sm:mt- ">
-    <div class="max-w-full mx-auto  text-gray-800 flex flex-wrap ">
-
-
-
-            <div class=" font-main p-3  w-1/2 sm:w-4/12 md:w-4/12">
-                <div class="font-bold z text-sm  uppercase text-white text-font-bold mb-2">
+<footer className=" md:mt-4 mt-12  border-white  bg-green-800  sm:mt- ">
+    <div className="max-w-full mx-auto  text-gray-800 flex flex-wrap ">
+            <div className=" font-main p-3  w-1/2 sm:w-4/12 md:w-4/12">
+                <div className="font-bold z text-sm  uppercase text-white text-font-bold mb-2">
                     Hunter Solicitors
                 </div>
                 <hr className='py-0'/>
-                <Link to='/'><div href="#" class="font-main my-3 block text-white hover:text-white text-xs font-medium duration-700">
+                <Link to='/'><div href="#" className="font-main my-3 block text-white hover:text-white text-xs font-medium duration-700">
                     Lavery House, Earl Street, Dublin 4, D12 T325, Ireland
                 </div></Link>
             <Link to='/'>  <div className="font-semibold font-main my-3 block text-white hover:text-white text-xs font-medium duration-700">
@@ -39,14 +36,14 @@ const Footer = () => {
                 </div>
     </div>
 
-        <div class=" p-3 w-1/2 sm:w-4/12 md:w-3/12">
+        <div class="lg:mt-0 mt-5 p-3 w-1/2 sm:w-4/12 md:w-3/12">
             <div class=" font-main text-sm  uppercase text-white font-bold mb-2">
-Policy
+                Policy
             </div>
             <hr className='py-0'/>
 <Link to='/'>
             <div href="#" class="my-3 block text-white hover:text-white text-xs font-medium duration-700">
-              Disclaimer
+                Disclaimer
             </div>
             </Link>
     <Link to='/'>
@@ -64,12 +61,12 @@ Policy
 
         <div class=" p-3 w-1/2 sm:w-4/12 md:w-3/12">
             <div class=" font-main text-sm  uppercase lg:pt-0 pt-5 text-white font-bold mb-2">
-General
+                General
             </div>
             <hr className='py-0'/>
 
             <Link to='/about'>  <div href="#" class="my-3 block text-white hover:text-white text-xs font-medium duration-700">
-              About
+                About
             </div>
             </Link>
             <Link to='/'>  <div href="#" class="my-3 block text-white hover:text-white text-xs font-medium duration-700">
@@ -78,7 +75,7 @@ General
                 </Link>
                 <Link to='/'>
             <div href="#" class="my-0 block text-white hover:text-white text-xs font-medium duration-700">
-                  Team
+                Team
             </div>
   </Link>
         </div>
@@ -115,9 +112,9 @@ General
     <div class="-pt-0">
         <div class="flex pb-0 px-3 bg-green-900 m-auto pt-2
              text-xs
-            flex-col md:flex-row max-w-6xl">
+            flex-col ">
             <div class="text-white -mt-2">
-                © Copyright 2020. Development & Design: Robert O'Toole.
+                ©Copyright 2020. Development & Design: Robert O'Toole.
             </div>
             <div class="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
                 <Link to='/'>

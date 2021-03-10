@@ -10,9 +10,9 @@ const HomepageContent = () => {
 
     <div className=' flex'>
 
-    <div class="translate-x-2">
-                    <div class="xl:space-y-6 space-y-4">
-                        <p class=" pb-0 tracking-widest antialiased text-xs font-main text-white ">
+    <div className="translate-x-2">
+                    <div className="2xl:mb-12 lg:mb-6 mb-0 xl:space-y-6 space-y-4">
+                        <p className="2xl:text-sm pb-0 tracking-widest antialiased text-xs font-main text-white ">
   When seeking legal advice it’s important to talk to a qualified solicitor who has the
   expertise to help you. The Law Society website lists solicitors who hold a
   current practising certificate and professional indemnity insurance in Ireland
@@ -22,7 +22,7 @@ const HomepageContent = () => {
   952 legal firms in County Dublin.
   <br />
   </p>
-    <p class=" pb-0 tracking-widest antialiased text-xs font-main text-white ">
+    <p className="2xl:text-sm pb-0 tracking-widest antialiased text-xs font-main text-white ">
     When seeking legal advice it’s important to talk to a qualified solicitor who has the
     expertise to help you. The Law Society website lists solicitors who hold a
     current practising certificate and professional indemnity insurance in Ireland
@@ -31,7 +31,7 @@ const HomepageContent = () => {
     952 legal firms in County Dublin. As at 14 August 2018, there were 6687 solicitors and
     952 legal firms in County Dublin.
         </p>
-    <p class=" pb-0 tracking-widest antialiased text-xs font-main text-white ">
+    <p className="2xl:text-sm  pb-0 tracking-widest antialiased text-xs font-main text-white ">
     When seeking legal advice it’s important to talk to a qualified solicitor who has the
     expertise to help you. The Law Society website lists solicitors who hold a
     current practising certificate and professional indemnity insurance in Ireland
