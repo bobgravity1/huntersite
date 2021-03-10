@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import Footer from '../content/Footer'
+import WrappedMap from '../Map.js'
 
 const Contact = () => {
   return (
@@ -63,6 +64,18 @@ Saturday – Sunday:Closed
 </div>
 </div>
 </div>
+
+<div className='mt-8 lg:mt-12'>
+  <WrappedMap
+  isMarkerShown
+  googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places$key=${process.env.REACT_APP_GOOGLE_KEY}`}
+  loadingElement={<div style={{ height: `100%` }} />}
+  containerElement={<div style={{ height: `400px` }} />}
+  mapElement={<div style={{ height: `100%` }} />}
+  />
+</div>
+
+
     <div className='w-full justify-between flex'>
         <Footer />
 
