@@ -17,11 +17,34 @@ const open=useContext(ThemeContext)
 
   return (
     <div className={`${open.open===false?'bg-container':'bg-container dark'}`}>
-    <p className='ml-4 lg:text-left text-center lg:ml-0 lg:py-4 pt-16 pb-4 title  text-white text-3xl'>
+    <p className='ml-4 lg:text-left text-center lg:ml-0 lg:py-4 pt-16 pb-0 title  text-white text-3xl'>
     Contact Us
     </p>
-  <div className=' lg:w-full justify-around lg:flex'>
-<div className='lg:mx-0 mx-4 lg:mt-8  rounded-lg border-4  border-green-700 bg-green-800 lg:w-1/3 '>
+  <div className='  lg:w-full justify-around lg:flex'>
+
+<div className='pt-8  font-main antialiased p-4 text-white text-center lg:mx-0 mx-4 mt-8 rounded-lg border-4  border-green-700 bg-green-800 lg:w-1/3'>
+Contact Us – We’re Here to Help
+Thank you for visiting our website. Please complete our enquiry form, so we can provide quick, professional and efficient service. If this is an urgent matter please give us a call on <span className='font-bold'>+353 (0)1 213 5940. </span>
+<br />
+
+Suite 10, The Mall, Beacon Court,
+Sandyford Business Park,
+Sandyford, Dublin 18,
+D18 RX03
+
+Contact
+Telephone: <span className='font-bold'>+353 (0)1 213 5940. </span>
+<span className='font-bold'>Fax: +353 (0)1 213 5946</span>
+<span className='font-bold'>E-mail: info@amoryssolicitors.com</span>
+
+<div className=' p-4 text-white font-main antialiased rounded-lg mt-12 bg-green-900 '>
+Amorys Solicitors – Office Hours
+Monday – Friday:08:00 – 18:00
+Saturday – Sunday:Closed
+</div>
+</div>
+
+<div className='mt-4 lg:mx-0 mx-4 lg:mt-8  rounded-lg border-4  border-green-700 bg-green-800 lg:w-1/3 '>
 <div className='lg:mt-0 mt-8'>
 <form class="mx-0 lg:mx-4 ">
 
@@ -53,28 +76,10 @@ const open=useContext(ThemeContext)
 
 
 </div>
-<div className='pt-8 lg:pt-0 font-main antialiased p-4 text-white text-center lg:mx-0 mx-4 mt-8 rounded-lg border-4  border-green-700 bg-green-800 lg:w-1/3'>
-Contact Us – We’re Here to Help
-Thank you for visiting our website. Please complete our enquiry form, so we can provide quick, professional and efficient service. If this is an urgent matter please give us a call on <span className='font-bold'>+353 (0)1 213 5940. </span>
-<br />
 
-Suite 10, The Mall, Beacon Court,
-Sandyford Business Park,
-Sandyford, Dublin 18,
-D18 RX03
 
-Contact
-Telephone: <span className='font-bold'>+353 (0)1 213 5940. </span>
-<span className='font-bold'>Fax: +353 (0)1 213 5946</span>
-<span className='font-bold'>E-mail: info@amoryssolicitors.com</span>
+</div>
 
-<div className=' p-4 text-white font-main antialiased rounded-lg mt-12 bg-green-900 '>
-Amorys Solicitors – Office Hours
-Monday – Friday:08:00 – 18:00
-Saturday – Sunday:Closed
-</div>
-</div>
-</div>
 
 <div className='mt-8 lg:mt-12'>
   <WrappedMap
