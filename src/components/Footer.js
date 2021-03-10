@@ -42,39 +42,39 @@ const Footer = () => {
             </div>
             <hr className='py-0'/>
 <Link to='/'>
-            <div href="#" class="my-3 block text-white hover:text-white text-xs font-medium duration-700">
+            <div href="#" className="my-3 block text-white hover:text-white text-xs font-medium duration-700">
                 Disclaimer
             </div>
             </Link>
     <Link to='/'>
-            <div href="#" class="my-3 block text-white hover:text-white text-xs font-medium duration-700">
+            <div href="#" className="my-3 block text-white hover:text-white text-xs font-medium duration-700">
                 Data Protection Info
             </div>
               </Link>
       <Link to='/'>
-            <div href="#" class="my-0 block text-white hover:text-white text-xs font-medium duration-700">
+            <div href="#" className="my-0 block text-white hover:text-white text-xs font-medium duration-700">
                   Privacy Policy
             </div>
       </Link>
 
         </div>
 
-        <div class=" p-3 w-1/2 sm:w-4/12 md:w-3/12">
-            <div class=" font-main text-sm  uppercase lg:pt-0 pt-5 text-white font-bold mb-2">
+        <div className=" p-3 w-1/2 sm:w-4/12 md:w-3/12">
+            <div className=" font-main text-sm  uppercase lg:pt-0 pt-5 text-white font-bold mb-2">
                 General
             </div>
             <hr className='py-0'/>
 
-            <Link to='/about'>  <div href="#" class="my-3 block text-white hover:text-white text-xs font-medium duration-700">
+            <Link to='/about'>  <div href="#" className="my-3 block text-white hover:text-white text-xs font-medium duration-700">
                 About
             </div>
             </Link>
-            <Link to='/'>  <div href="#" class="my-3 block text-white hover:text-white text-xs font-medium duration-700">
+            <Link to='/'>  <div href="#" className="my-3 block text-white hover:text-white text-xs font-medium duration-700">
                 Contact
             </div>
                 </Link>
                 <Link to='/'>
-            <div href="#" class="my-0 block text-white hover:text-white text-xs font-medium duration-700">
+            <div href="#" className="my-0 block text-white hover:text-white text-xs font-medium duration-700">
                 Team
             </div>
   </Link>
@@ -82,64 +82,64 @@ const Footer = () => {
 
 
 
-        <div class=" p-3 w-3/6 lg:w-1/6">
-            <div class="mt-5 lg:mt-0 font-main text-sm  uppercase text-white font-bold mb-2">
+        <div className=" p-3 w-3/6 lg:w-1/6">
+            <div className="mt-5 lg:mt-0 font-main text-sm  uppercase text-white font-bold mb-2">
                 Community
             </div>
             <hr className='py-0'/>
                 <Link to='/'>
-            <div href="#" class=" w-1/2 my-2 block text-white  hover:text-gray-200 font-main-bold text-xs font-medium duration-200">
+            <div href="#" className=" w-1/2 my-2 block text-white  hover:text-gray-200 font-main-bold text-xs font-medium duration-200">
                 Facebook
             </div>
             </Link>
               <Link to='/'>
-            <div href="#" class=" w-1/2 my-2 block text-white  hover:text-gray-200 font-main-bold text-xs font-medium duration-200">
+            <div href="#" className=" w-1/2 my-2 block text-white  hover:text-gray-200 font-main-bold text-xs font-medium duration-200">
                 Google
             </div>
             </Link>
               <Link to='/'>
-            <div href="#" class=" w-1/2 my-2 block text-white  hover:text-gray-200 font-main-bold text-xs font-medium duration-200">
+            <div href="#" className=" w-1/2 my-2 block text-white  hover:text-gray-200 font-main-bold text-xs font-medium duration-200">
                 Twitter
             </div>
             </Link>
               <Link to='/'>
-            <div href="#" class=" w-1/2 my-0 block text-white  hover:text-gray-200 font-main-bold text-xs font-medium duration-200">
+            <div href="#" className=" w-1/2 my-0 block text-white  hover:text-gray-200 font-main-bold text-xs font-medium duration-200">
                 Social
             </div>
             </Link>
         </div>
     </div>
-    <div class="-pt-0">
-        <div class="flex pb-0 px-3 bg-green-900 m-auto pt-2
+    <div className="-pt-0">
+        <div className="flex pb-0 px-3 bg-green-900 m-auto pt-2
              text-xs
             flex-col ">
-            <div class="text-white -mt-2">
+            <div className="text-white -mt-2">
                 ©Copyright 2020. Development & Design: Robert O'Toole.
             </div>
-            <div class="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
+            <div className="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
                 <Link to='/'>
-                <div href="#" class="w-6 mx-1">
-                    <i class="uil uil-facebook-f"></i>
+                <div href="#" className="w-6 mx-1">
+                    <i className="uil uil-facebook-f"></i>
                 </div>
                 </Link>
                   <Link to='/'>
-                <div href="#" class="w-6 mx-1">
-                    <i class="uil x uil-twitter-alt"></i>
+                <div href="#" className="w-6 mx-1">
+                    <i className="uil x uil-twitter-alt"></i>
                 </div>
                 </Link>
                   <Link to='/'>
-                <div href="#" class="w-6 mx-1">
-                    <i class="uil uil-youtube"></i>
+                <div href="#" className="w-6 mx-1">
+                    <i className="uil uil-youtube"></i>
                 </div>
                 </Link>
                   <Link to='/'>
-                <div href="#" class="w-6 mx-1">
-                    <i class="uil uil-linkedin"></i>
+                <div href="#" className="w-6 mx-1">
+                    <i className="uil uil-linkedin"></i>
                 </div>
                 </Link>
                 <Link to='/'>
-                <div href="#" class="w-6 mx-1">
-                    <i class="uil uil-instagram"></i>
+                <div href="#" className="w-6 mx-1">
+                    <i className="uil uil-instagram"></i>
                 </div>
                 </Link>
             </div>

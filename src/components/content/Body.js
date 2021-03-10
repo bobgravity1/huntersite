@@ -3,9 +3,7 @@ import '../../styles/custom.css'
 
 
 const Body = (props) => {
-  const [page, setPage]=useState(null)
 
-  console.log(props.children)
   return (
     <div >
 
@@ -27,7 +25,7 @@ const Body = (props) => {
 </p>
 </div>
     </div>
-    <p class="2xl:text-sm mx-8 bg-green-900 lg:py-8 py-2 lg:px-12 tracking-widest antialiased text-xs font-main text-white ">
+    <p className="2xl:text-sm mx-8 bg-green-900 lg:py-8 py-2 lg:px-12 tracking-widest antialiased text-xs font-main text-white ">
 {props.children.paragraph[1]}
     </p>
     </div>

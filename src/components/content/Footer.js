@@ -4,15 +4,15 @@ import {Link} from 'react-router-dom'
 const Footer = () => {
   return (
     <>
-<footer class="">
+<footer className="">
 
-            <div class=" font-main p-3  ">
-                <div class="font-bold text-sm  uppercase text-green-900 text-font-bold mb-2">
+            <div className=" font-main p-3  ">
+                <div className="font-bold text-sm  uppercase text-green-900 text-font-bold mb-2">
                     Hunter Solicitors
                 </div>
                 <hr className='py-0'/>
                 <div className='bg-green-900'>
-                <Link to='/'><div href="#" class=" text-white font-main my-3 block text-white hover:text-white text-xs font-medium duration-700">
+                <Link to='/'><div href="#" className=" text-white font-main my-3 block text-white hover:text-white text-xs font-medium duration-700">
                     Lavery House, Earl Street, Dublin 4, D12 T325, Ireland
                 </div></Link>
             <Link to='/'>  <div className="text-white font-semibold font-main my-3 block text-white hover:text-white text-xs font-medium duration-700">
@@ -25,12 +25,12 @@ const Footer = () => {
 </Link>
 
 <div className=''>
-              <Link to='/'>    <div href="#" class="text-white  font-main my-3 block text-white hover:text-white text-xs font-semibold duration-700">
+              <Link to='/'>    <div href="#" className="text-white  font-main my-3 block text-white hover:text-white text-xs font-semibold duration-700">
 
                   Mail: law@hunter-solicitors.ie
                 </div>
                 </Link>
-                <div class="text-white text-xs -mt-2">
+                <div className="text-white text-xs -mt-2">
                     © Copyright 2020. Development & Design: Robert O'Toole.
                 </div>
                 </div>

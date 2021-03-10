@@ -1,7 +1,7 @@
 // components
 import Nav from './components/Nav'
 import Homepage from './components/Homepage'
-import React, {useState, useContext} from "react";
+import React, {useState} from "react";
 
 import {
   BrowserRouter as Router,
@@ -22,7 +22,6 @@ import ThemeContext from './ThemeContext';
 // imports
 function App() {
   const [open, setOpen]=useState(false)
-  const ok=useContext(ThemeContext)
 
   return (
     <>

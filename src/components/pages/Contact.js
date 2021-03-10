@@ -16,7 +16,7 @@ const open=useContext(ThemeContext)
 
 
   return (
-    <div className={`${open.open===false?'bg-container':'bg-container dark'}`}>
+    <div className={`${open.open?'bg-container dark':'bg-container'}`}>
     <p className='ml-4 lg:text-left text-center lg:ml-0 lg:py-4 pt-16 pb-0 title  text-white text-3xl'>
     Contact Us
     </p>
@@ -46,24 +46,24 @@ Saturday – Sunday:Closed
 
 <div className='mt-4 lg:mx-0 mx-4 lg:mt-8  rounded-lg border-4  border-green-700 bg-green-800 lg:w-1/3 '>
 <div className='lg:mt-0 mt-8'>
-<form class="mx-0 lg:mx-4 ">
+<form className="mx-0 lg:mx-4 ">
 
-    <div class="lg:mx-0 w-full mt-4 px-3">
+    <div className="lg:mx-0 w-full mt-4 px-3">
     <h1 className='antialiased font-main text-center my-4 text-white font-bold '>Make an enquiry</h1>
-      <label class="font-main antialiased block  text-white text-xs font-bold mb-2" for="grid-password">
+      <label className="font-main antialiased block  text-white text-xs font-bold mb-2" for="grid-password">
         E-mail
       </label>
-      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-2 px-2 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email" />
+      <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-2 px-2 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email" />
 
 
   </div>
-    <div class=" w-full px-3">
-      <label class="font-main antialiased block  text-white text-xs font-bold mb-2" for="grid-password">
+    <div className=" w-full px-3">
+      <label className="font-main antialiased block  text-white text-xs font-bold mb-2" for="grid-password">
         Message
       </label>
-      <textarea class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message"></textarea>
-      <div className='my-4 lg:my-0 flex justify-center '>
-      <button class="font-main antialiased my-4 px-8  mx-auto border-green-800 bg-green-900  duration-200 antialiased text-white p-2 font-bold lg:hover:bg-green-800 lg:hover:border-green-800 hover:text-white rounded-none text-lg lg:border-green-800 border-2" type="button">
+      <textarea className=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message"></textarea>
+      <div classNameName='my-4 lg:my-0 flex justify-center '>
+      <button className="font-main antialiased my-4 px-8  mx-auto border-green-800 bg-green-900  duration-200 antialiased text-white p-2 font-bold lg:hover:bg-green-800 lg:hover:border-green-800 hover:text-white rounded-none text-lg lg:border-green-800 border-2" type="button">
         Send
       </button>
       </div>
