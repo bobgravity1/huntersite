@@ -36,7 +36,7 @@ const Footer = () => {
                 </div>
     </div>
 
-        <div class="lg:mt-0 mt-5 p-3 w-1/2 sm:w-4/12 md:w-3/12">
+        <div class="lg:mt-0 mt-0 p-3 w-1/2 sm:w-4/12 md:w-3/12">
             <div class=" font-main text-sm  uppercase text-white font-bold mb-2">
                 Policy
             </div>
