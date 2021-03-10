@@ -8,7 +8,7 @@ const Body = (props) => {
     <div >
 
 <div className=" bg-container   ">
-            <i className="fa fa-swimmer" style={{fontSize:'48px'}}></i>
+            <i className="fa x fa-swimmer" style={{fontSize:'48px'}}></i>
             <div className='lg:mt-4 mt-0 flex justify-center '>
             <p className='title hidden lg:block text-white text-right text-4xl'>
             {props.children.title}
