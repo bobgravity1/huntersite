@@ -25,7 +25,7 @@ const open=useContext(ThemeContext)
 
   return (
     <>
-    <div className={`${open.open===false?'opacity-100':'dark'}`}>
+    <div className={`${open.open?'bg-container dark':'bg-container'}`}>
     <Body image={image}>{text.about}</Body>
     <div className='w-full justify-between flex'>
         <Footer />
