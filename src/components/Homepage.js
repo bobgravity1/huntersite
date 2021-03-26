@@ -16,15 +16,16 @@ import imageThree from '../images/home-image-three.jpg'
 import imageFour from '../images/home-image-four.jpg'
 
 const Homepage = () => {
-  useEffect(()=>{
+    useEffect(()=>{
     window.scrollTo(0, 0);
-    open.setOpen(false)
+    setOpen(false)
+    console.log('i am rendering')
 },[])
 
-const open=useContext(ThemeContext)
+const {open, setOpen}=useContext(ThemeContext)
 
   return (
-    <div className={`${open.open===false?'opacity-100':'dark'}`}>
+    <div className={`${open===false?'opacity-100':'dark'}`}>
 <div className={`bg-container mt-10 md:mt-0 shadow-2xl`}>
     <Banner />
 <div className={` shadow-xl grid grid-cols-1 gap-0 lg:gap-0 lg:grid-cols-12`}>

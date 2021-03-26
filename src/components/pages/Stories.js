@@ -15,14 +15,14 @@ const Stories = () => {
 
   useEffect(()=>{
     window.scrollTo(0, 0);
-    open.setOpen(false)
+    setOpen(false)
 },[])
 
-const open=useContext(ThemeContext)
+const {open, setOpen}=useContext(ThemeContext)
 
   return (
     <>
-    <div className={`${open.open?'bg-container dark':'bg-container'}`}>
+    <div className={`${open?'bg-container dark':'bg-container'}`}>
     <Body image={image}>{text.stories}</Body>
     <div className='w-full justify-between flex'>
         <Footer />
