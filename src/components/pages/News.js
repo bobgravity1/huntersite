@@ -23,7 +23,7 @@ const {open,setOpen}=useContext(ThemeContext)
   return (
     <>
     <div className={`${open?'bg-container dark':'bg-container'}`}>
-    <Body image={image}>{text.news}</Body>
+    <Body type={'right'} image={image}>{text.news}</Body>
     <div className='w-full justify-between flex'>
         <Footer />
 

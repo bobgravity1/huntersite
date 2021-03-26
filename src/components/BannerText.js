@@ -15,8 +15,8 @@ const BannerText = () => {
     will guide the firm’s actions
     in a direction that aligns with what the
     lawyers believe is right for the firm lawyers.  </p>
-    <button className='xl:my-12 lg:my-6 my-2 border-green-700 md:bg-transparent bg-green-800  duration-200 antialiased mx-auto w-1/2 md:w-1/4 lg:text-green-800 p-2 font-bold lg:hover:bg-green-700 lg:hover:border-green-700 hover:text-white rounded-none text-lg lg:border-green-800 border-2'>Read More</button>
-      <p className='mt-2 block lg:hidden animate-pulse text-xs'>click to see our team</p>
+    <button className='xl:my-12 lg:my-6 my-2 border-green-700 md:bg-transparent bg-green-800  duration-200 antialiased mx-auto w-1/2 md:w-1/4 lg:text-green-800 p-2 font-bold lg:hover:bg-green-700 lg:hover:border-green-700 hover:text-white rounded-none text-lg lg:border-green-800 border-2'>About Us</button>
+      <p className='mt-2 block lg:hidden animate-pulse text-xs'>Click to read more</p>
     <svg onClick={()=>scrollBottom()} className='animate-pulse arrow' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />

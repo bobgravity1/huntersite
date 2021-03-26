@@ -5,7 +5,7 @@ import Footer from './Footer'
 import GreenBanner from './GreenBanner'
 import HomepageContentCards from './HomepageContentCards'
 import HomepageContent from './HomepageContent'
-import HomepageTeam from './HomepageTeam'
+import HomepagePicture from './HomepagePicture'
 import WrappedMap from './Map'
 import ThemeContext from '../ThemeContext'
 import '../styles/custom.css'
@@ -32,8 +32,8 @@ const {open, setOpen}=useContext(ThemeContext)
   <div class=" col-span-7">
     <HomepageContent />
         </div>
-  <div class="">
-    <HomepageTeam />
+  <div class="col-span-4">
+    <div className='w-full'><HomepagePicture /></div>
   </div>
     </div>
     <GreenBanner />

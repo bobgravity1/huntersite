@@ -17,7 +17,7 @@ const {open, setOpen}=useContext(ThemeContext)
 
   return (
     <div className={`${open?'bg-container dark':'bg-container'}`}>
-    <p className='ml-4 lg:text-left text-center lg:ml-0 lg:py-4 pt-16 pb-0 title  text-white text-3xl'>
+    <p className='ml-4 lg:text-left lg:ml-0 lg:py-4 pt-16 pb-0 title  text-white text-3xl'>
     Contact Us
     </p>
   <div className='  lg:w-full justify-around lg:flex'>
@@ -44,7 +44,7 @@ Saturday – Sunday:Closed
 </div>
 </div>
 
-<div className='mt-4 lg:mx-0 mx-4 lg:mt-8  rounded-lg border-4  border-green-700 bg-green-800 lg:w-1/3 '>
+<div className='mt-4 lg:mx-0 mx-4 lg:mt-8  rounded-lg border-4  border-green-700 bg-green-800 lg:w-3/5 '>
 <div className='lg:mt-0 mt-8'>
 <form className="mx-0 lg:mx-4 ">
 
@@ -62,9 +62,11 @@ Saturday – Sunday:Closed
         Message
       </label>
       <textarea className=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message"></textarea>
-      <button className="lg:ml-24 ml-16 bg-red-600 font-main antialiased my-4 px-8  mx-auto border-green-800 bg-green-700  duration-200 antialiased text-white p-2 font-bold lg:hover:bg-green-900 lg:hover:border-green-800 hover:text-white rounded-none text-lg lg:border-green-800 border-2" type="button">
+      <div className='w-full flex'>
+      <button className=" w-3/4  bg-red-600 font-main antialiased my-4  mx-auto border-green-800 bg-green-700  duration-200 antialiased text-white p-2 font-bold lg:hover:bg-green-900 lg:hover:border-green-800 hover:text-white rounded-none text-lg lg:border-green-800 border-2" type="button">
         Send
       </button>
+      </div>
 
   </div>
 

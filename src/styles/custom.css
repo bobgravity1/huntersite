@@ -1,9 +1,12 @@
 .bg-container{
   background-color: rgba(6, 78, 59, 90)
 }
-
 .dark{
   filter: brightness(60%)
+}
+.titleLeft{
+  position: relative;
+  top:.5em;
 }
 
 .nav{
@@ -211,6 +214,7 @@ font-family: 'Heebo:100', sans-serif;
      width:50vw;
      position:absolute;
    }
+
 }
 
 
@@ -222,6 +226,7 @@ font-family: 'Heebo:100', sans-serif;
      position:relative;
      bottom:5vh;
    }
+
    .title{
      position: relative;
      margin-left:12vw;
