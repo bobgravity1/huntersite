@@ -21,12 +21,12 @@ console.log(props.type)
 <div className=" bg-container   ">
             <i className="fa x fa-swimmer" style={{fontSize:'48px'}}></i>
             <div className='lg:mt-4 mt-0 flex justify-center '>
-            <p className={`${title()} hidden lg:block text-white  text-4xl`}>
+            <p className={`${title()} mr-0 lg:mr-4  hidden lg:block text-white  text-4xl`}>
             {props.children.title}
             </p>
             </div>
 <div className='mt-12 lg:mt-0 mx-8  items-start flex flex-wrap flex-row'>
-<p className='text-left lg:hidden block ml-2 text-white text-3xl'>
+<p className='text-left lg:hidden block text-white text-3xl'>
 {props.children.title}
 </p>
 <hr className='hidden lg:block py-2'/>
