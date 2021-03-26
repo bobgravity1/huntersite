@@ -19,7 +19,6 @@ const Homepage = () => {
     useEffect(()=>{
     window.scrollTo(0, 0);
     setOpen(false)
-    console.log('i am rendering')
 },[])
 
 const {open, setOpen}=useContext(ThemeContext)
