@@ -20,7 +20,7 @@ const {open, setOpen}=useContext(ThemeContext)
     <p className='ml-4 lg:text-left lg:ml-0 lg:py-4 pt-16 pb-0 title  text-white text-3xl'>
     Contact Us
     </p>
-  <div className='  lg:w-full justify-around lg:flex'>
+  <div className='lg:w-full justify-around lg:flex'>
 
 <div className='pt-8  font-main antialiased p-4 text-white text-center lg:mx-0 mx-4 mt-8  border-4  border-green-700 bg-green-800 lg:w-1/3'>
 Contact Us – We’re Here to Help
