@@ -17,7 +17,7 @@ solicitor by name or by location. As at 14 August 2018, there were 6687 solicito
 952 legal firms in County Dublin. When seeking legal advice it’s important to talk to a qualified solicitor who has the
 expertise to help you.
 </p>
-
+<p className='lg:py-0 py-2'></p>
 <p className="2xl:text-sm w-full pb-0 tracking-widest antialiased text-xs font-main text-white ">
 When seeking legal advice it’s important to talk to a qualified solicitor who has the
 expertise to help you. The Law Society website lists solicitors who hold a
