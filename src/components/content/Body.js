@@ -30,11 +30,11 @@ console.log(props.type)
 {props.children.title}
 </p>
 <hr className='hidden lg:block py-2'/>
-{props.type==='left'?null:<img className='img bg-green-800 rounded-lg mt-2 p-2 lg:p-4 w-full lg:w-1/2' alt='content' src={props.image} />}
+{props.type==='left'?null:<img className='img bg-green-800  mt-2 p-2 lg:p-2 w-full lg:w-1/2' alt='content' src={props.image} />}
 <p className="lg:-my-4 my-4 lg:mt-0 lg:w-1/2 w-full  bg-green-900 lg:p-8 tracking-widest antialiased 2xl:text-sm text-xs font-main text-white ">
 {props.children.paragraph[0]}
 </p>
-{props.type==='right'?null:<img className='img bg-green-800 rounded-lg mt-2 p-2 lg:p-4 w-full lg:w-1/2' alt='content' src={props.image} />}
+{props.type==='right'?null:<img className='img bg-green-800  mt-2 p-2 lg:p-2 w-full lg:w-1/2' alt='content' src={props.image} />}
 </div>
     </div>
     <p className="2xl:text-sm mx-8 bg-green-900 lg:py-8 py-2 lg:px-12 tracking-widest antialiased text-xs font-main text-white ">

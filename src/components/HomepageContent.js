@@ -2,9 +2,9 @@ import React from 'react'
 
 const HomepageContent = () => {
   return (
-    <div class="lg:px-20 px-4 pt-8">
+    <div class="lg:px-20 px-4 lg:pt-12 pt-24">
 
-      <h1 class="py-2 font-bold text-2xl text-white">
+      <h1 class="py-4 font-bold text-2xl text-white">
           Our Mission
       </h1>
 

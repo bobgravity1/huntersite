@@ -22,7 +22,7 @@ const {open, setOpen}=useContext(ThemeContext)
     </p>
   <div className='  lg:w-full justify-around lg:flex'>
 
-<div className='pt-8  font-main antialiased p-4 text-white text-center lg:mx-0 mx-4 mt-8 rounded-lg border-4  border-green-700 bg-green-800 lg:w-1/3'>
+<div className='pt-8  font-main antialiased p-4 text-white text-center lg:mx-0 mx-4 mt-8  border-4  border-green-700 bg-green-800 lg:w-1/3'>
 Contact Us – We’re Here to Help
 Thank you for visiting our website. Please complete our enquiry form, so we can provide quick, professional and efficient service. If this is an urgent matter please give us a call on <span className='font-bold'>+353 (0)1 213 5940. </span>
 <br />
@@ -37,14 +37,14 @@ Telephone: <span className='font-bold'>+353 (0)1 213 5940. </span>
 <span className='font-bold'>Fax: +353 (0)1 213 5946</span>
 <span className='font-bold'>E-mail: info@amoryssolicitors.com</span>
 
-<div className=' p-4 text-white font-main antialiased rounded-lg mt-12 bg-green-900 '>
+<div className=' p-4 text-white font-main antialiased  mt-12 bg-green-900 '>
 Amorys Solicitors – Office Hours
 Monday – Friday:08:00 – 18:00
 Saturday – Sunday:Closed
 </div>
 </div>
 
-<div className='mt-4 lg:mx-0 mx-4 lg:mt-8  rounded-lg border-4  border-green-700 bg-green-800 lg:w-3/5 '>
+<div className='mt-4 lg:mx-0 mx-4 lg:mt-8  border-4  border-green-700 bg-green-800 lg:w-3/5 '>
 <div className='lg:mt-0 mt-8'>
 <form className="mx-0 lg:mx-4 ">
 
@@ -53,7 +53,7 @@ Saturday – Sunday:Closed
       <label className="font-main antialiased block  text-white text-xs font-bold mb-2" for="grid-password">
         E-mail
       </label>
-      <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-2 px-2 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email" />
+      <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded p-2 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email" />
 
 
   </div>

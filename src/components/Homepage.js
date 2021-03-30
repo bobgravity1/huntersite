@@ -32,7 +32,7 @@ const {open, setOpen}=useContext(ThemeContext)
     <HomepageContent />
         </div>
   <div class="col-span-4">
-    <div className='w-full'><HomepagePicture /></div>
+    <HomepagePicture />
   </div>
     </div>
     <GreenBanner />
